@@ -1,0 +1,22 @@
+name: boilerthing
+
+services:
+  main-db:
+    container_name: boilerthing
+    image: postgres
+    ports:
+      - target: 5432
+        published: 5432
+        protocol: tcp
+    environment:
+      - POSTGRES_DB=boilerthing
+      - POSTGRES_PASSWORD=admin
+      - POSTGRES_USER=admin
+    volumes:
+      - db_data:/var/lib/postgresql/data:rw
+      # you may use a bind-mounted host directory instead,
+      # so that it is harder to accidentally remove the volume and lose all your data!
+      # - ./docker/db/data:/var/lib/postgresql/data:rw
+
+volumes:
+  db_data:

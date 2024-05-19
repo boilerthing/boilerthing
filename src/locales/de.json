@@ -1,0 +1,242 @@
+{
+  "Meta": {
+    "title": "Boilerthing",
+    "description": "Bestes Boilerplate für Deine nächste Idee."
+  },
+  "Routes": {
+    "pricing": "Preise",
+    "contact": "Kontakt",
+    "login": "Anmelden",
+    "signup": "Registrieren",
+    "dashboard": "Dashboard",
+    "profile": "Profil",
+    "settings": "Einstellungen"
+  },
+  "Components": {
+    "withSidebar": {
+      "ContentFooter": {
+        "message": "Hier könnte eine Info stehen"
+      },
+      "SidebarMobile": {
+        "sheet_trigger_aria_label": "Seitenleiste öffnen",
+        "sheet_content_aria_label": "Mobile Navigation"
+      }
+    },
+    "BadgeAdmin": {
+      "label": "Admin"
+    },
+    "ButtonLogin": {
+      "title": "Anmelden"
+    },
+    "ButtonLogout": {
+      "title": "Abmelden"
+    },
+    "ButtonSignup": {
+      "title": "Registrieren"
+    },
+    "FormContact": {
+      "alertDestructive": {
+        "title": "Ups! Etwas ist schiefgelaufen!",
+        "description": "Bitte versuche es erneut."
+      },
+      "alertSuccess": {
+        "title": "Juhu! Danke, dass du uns kontaktiert hast!",
+        "description": "Wir werden uns so schnell wie möglich bei dir melden."
+      },
+      "fieldEmail": {
+        "label": "Email",
+        "placeholder": "Gebe deine E-Mail-Adresse ein..."
+      },
+      "fieldMessage": {
+        "label": "Nachricht",
+        "placeholder": "Was denkst du?"
+      },
+      "captcha": "Diese Seite ist durch reCAPTCHA geschützt und es gelten die <privacy>Datenschutzbestimmungen</privacy> und <terms>Nutzungsbedingungen</terms> von Google.",
+      "buttonSubmit": {
+        "label": "Senden",
+        "label_send_another": "Mehr senden"
+      },
+      "messages": {
+        "email_min_1": "Bitte gebe deine Ihre E-Mail-Adresse ein.",
+        "email_not_valid": "Die E-Mail-Adresse scheint ungültig.",
+        "message_min_1": "Bitte gebe eine Nachricht ein."
+      }
+    },
+    "FormLogin": {
+      "title": "Anmelden",
+      "button_google": "Mit Google anmelden",
+      "button_github": "Mit GitHub anmelden"
+    },
+    "IconLoadingSpinner": {
+      "label": "Laden..."
+    },
+    "LandingAction": {
+      "title": "Liebst du es?",
+      "button": "Gib uns ein Sternchen auf GitHub."
+    },
+    "LandingFeatures": {
+      "title": "Was auch immer du brauchst, wir haben es.",
+      "subtitle": "Funktionen"
+    },
+    "LandingHero": {
+      "title": "Das <underline>wahre</underline> Boilerthing.",
+      "typewriter1": "Mach dein Ding.",
+      "typewriter2": "Deploy dein Ding.",
+      "typewriter3": "Skaliere dein Ding.",
+      "subtitle": "Mache bessere Dinge mit Boilerthing.",
+      "link_dashboard": "Loslegen",
+      "link_login": "Fang an, einen Unterschied zu machen"
+    },
+    "LandingQuotes": {
+      "title": "Testimonials",
+      "subtitle": "Die Leute lieben es, unser Ding zu benutzen.",
+      "quote1": {
+        "quote": "Das Ding ist das beste Ding, das ich je benutzt habe. Vertrau mir, Brudi.",
+        "name": "Jules Winnfield",
+        "position": "CEO, Banana Biz."
+      },
+      "quote2": {
+        "quote": "Das Ding bietet viele Dinge, die gut für unser Business sind.",
+        "name": "Mia Wallace",
+        "position": "Produktmanagerin, Cherry Inc."
+      },
+      "quote3": {
+        "quote": "Ich sage es dir - andere Dinge können mit diesem Ding nicht mithalten.",
+        "name": "Vincent Vega",
+        "position": "Öffentlichkeitsarbeit, Citrus Co."
+      }
+    },
+    "LandingReferences": {
+      "title": "Referenzen",
+      "subtitle": "Top Unternehmen vertrauen uns.",
+      "reference1": {
+        "label": "Cherry Inc."
+      },
+      "reference2": {
+        "label": "Banana Biz."
+      },
+      "reference3": {
+        "label": "Braeburn Ltd."
+      },
+      "reference4": {
+        "label": "Citrus Co."
+      }
+    },
+    "LandingStatistics": {
+      "title": "Statistiken",
+      "subtitle": "Die Zahlen sehen gut aus.",
+      "stat1": {
+        "label": "Benutzer"
+      },
+      "stat2": {
+        "label": "Abonnenten"
+      },
+      "stat3": {
+        "label": "Downloads"
+      },
+      "stat4": {
+        "label": "Produkte"
+      }
+    },
+    "LandingThings": {
+      "title1": "Mach dein Ding.",
+      "subtitle1": "Beginne noch heute mit Boilerthing.",
+      "link1": "Jetzt starten",
+      "title2": "Willst Du reden?",
+      "subtitle2": "Wir sind hier, um zu helfen.",
+      "link2": "Kontaktiere uns"
+    },
+    "LocaleSwitcher": {
+      "label": "Sprache ändern",
+      "locale": "{locale, select, de {Deutsch} en {Englisch} other {Unbekannt}}"
+    },
+    "PricingCard": {
+      "price": "{amount}€",
+      "savings": "{amount}€/Monat sparen",
+      "button": "Kostenlos ausprobieren"
+    },
+    "PricingSelector": {
+      "pay_monthly": "Monatlich zahlen",
+      "pay_annualy": "Jährlich zahlen <badge>-20%</badge>",
+      "price_info": "* Preise sind in EUR und enthalten keine Mehrwertsteuer.",
+      "pricingCard1": {
+        "name": "Kostenloses Ding",
+        "subtitle": "Für Einzelpersonen",
+        "feature_1": "Unbegrenzte Dinge",
+        "feature_2": "Basis-Support",
+        "feature_3": "Community-Zugang",
+        "feature_4": "Standard-Sicherheit"
+      },
+      "pricingCard2": {
+        "name": "Pro Ding",
+        "subtitle": "Erweiterte Funktionen",
+        "feature_1": "Benutzerdefinierte Dinge",
+        "feature_2": "Priorisierter Support",
+        "feature_3": "Erweiterte Analysen",
+        "feature_4": "Erhöhte Sicherheit"
+      },
+      "pricingCard3": {
+        "name": "Team Ding",
+        "subtitle": "Für Teams",
+        "feature_1": "Zusammenarbeits-Dinge",
+        "feature_2": "Benutzerdefinierte Rollen",
+        "feature_3": "Dedizierter Support",
+        "feature_4": "Benutzerdefinierte Integrationen"
+      }
+    },
+    "PricingFAQ": {
+      "item1": {
+        "question": "Wie kann ich das Ding upgraden?",
+        "answer": "Sie können Ihr Ding jederzeit auf der Abrechnungsseite upgraden."
+      },
+      "item2": {
+        "question": "Gibt es versteckte Dinge?",
+        "answer": "Nein, es gibt keine versteckten Dinge. Was Sie sehen, ist, was Sie bekommen."
+      },
+      "item3": {
+        "question": "Kann ich mein Ding mit anderen teilen?",
+        "answer": "Ja, Sie können Ihr Ding mit Teammitgliedern und Mitarbeitern teilen."
+      },
+      "item4": {
+        "question": "Kann ich mein Ding anpassen?",
+        "answer": "Ja, unser Ding ermöglicht umfangreiche Anpassungen, um Ihren Bedürfnissen gerecht zu werden."
+      },
+      "item5": {
+        "question": "Was, wenn ich Hilfe mit meinem Ding brauche?",
+        "answer": "Unser Support-Team ist rund um die Uhr verfügbar, um Ihnen bei allen Ding-bezogenen Problemen zu helfen."
+      }
+    },
+    "ProfileCard": {
+      "joined_on": "Beigetreten am {date}",
+      "button_delete_account": "Mein Konto löschen"
+    },
+    "ScrollToTop": {
+      "aria_label": "Nach oben scrollen"
+    },
+    "SidebarMobile": {
+      "trigger_aria_label": "Seitenleiste öffnen",
+      "content_aria_label": "Mobile Navigation"
+    }
+  },
+  "Pages": {
+    "Profile": {
+      "title": "Profil"
+    },
+    "Settings": {
+      "title": "Einstellungen"
+    },
+    "Contact": {
+      "title": "Kontakt",
+      "subtitle": "Sei kein Fremder, schreibe uns!"
+    },
+    "Pricing": {
+      "title": "Preise",
+      "subtitle": "Die unten stehenden Zahlen sind nur Beispiele, Boilerthing ist kostenlos."
+    },
+    "Page404": {
+      "title": "404",
+      "description": "Sorry, die Seite, die Du gesucht hast, existiert nicht.",
+      "link": "Zurück zur Startseite"
+    }
+  }
+}

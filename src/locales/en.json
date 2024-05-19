@@ -1,0 +1,242 @@
+{
+  "Meta": {
+    "title": "Boilerthing",
+    "description": "Best boilerplate for your next business."
+  },
+  "Routes": {
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "login": "Log in",
+    "signup": "Sign up",
+    "dashboard": "Dashboard",
+    "profile": "Profile",
+    "settings": "Settings"
+  },
+  "Components": {
+    "withSidebar": {
+      "ContentFooter": {
+        "message": "Some content for the footer."
+      },
+      "SidebarMobile": {
+        "sheet_trigger_aria_label": "Open Sidebar",
+        "sheet_content_aria_label": "Mobile Navigation"
+      }
+    },
+    "BadgeAdmin": {
+      "label": "Admin"
+    },
+    "ButtonLogin": {
+      "title": "Log in"
+    },
+    "ButtonLogout": {
+      "title": "Log out"
+    },
+    "ButtonSignup": {
+      "title": "Sign up"
+    },
+    "FormContact": {
+      "alertDestructive": {
+        "title": "Oops! Something went wrong!",
+        "description": "Please try again"
+      },
+      "alertSuccess": {
+        "title": "Yay! Thanks for reaching out!",
+        "description": "We'll get back to you as soon as possible."
+      },
+      "fieldEmail": {
+        "label": "Email",
+        "placeholder": "Enter your email here..."
+      },
+      "fieldMessage": {
+        "label": "Message",
+        "placeholder": "What's on your mind?"
+      },
+      "captcha": "This site is protected by reCAPTCHA and the Google <privacy>Privacy Policy</privacy> and <terms>Terms of Service</terms> apply.",
+      "buttonSubmit": {
+        "label": "Submit",
+        "label_send_another": "Send another message"
+      },
+      "messages": {
+        "email_min_1": "Please enter your email.",
+        "email_not_valid": "Please enter a valid email address.",
+        "message_min_1": "Please enter your message."
+      }
+    },
+    "FormLogin": {
+      "title": "Sign in",
+      "button_google": "Sign in with Google",
+      "button_github": "Sign in with GitHub"
+    },
+    "IconLoadingSpinner": {
+      "label": "Loading..."
+    },
+    "LandingAction": {
+      "title": "Are you loving it?",
+      "button": "Give some love on GitHub."
+    },
+    "LandingFeatures": {
+      "title": "You name it, we've got it.",
+      "subtitle": "Features"
+    },
+    "LandingHero": {
+      "title": "The <underline>real</underline> Boilerthing.",
+      "typewriter1": "Do your thing.",
+      "typewriter2": "Deploy your thing.",
+      "typewriter3": "Scale your thing.",
+      "subtitle": "Make better things with Boilerthing.",
+      "link_dashboard": "Get started",
+      "link_login": "Start making an impact"
+    },
+    "LandingQuotes": {
+      "title": "Testimonials",
+      "subtitle": "People love using the thing.",
+      "quote1": {
+        "quote": "The thing is the best thing I've ever used. Trust me bro.",
+        "name": "Jules Winnfield",
+        "position": "CEO, Banana Biz."
+      },
+      "quote2": {
+        "quote": "The thing unparalleled things that have advanced our business.",
+        "name": "Mia Wallace",
+        "position": "Product Manager, Cherry Inc."
+      },
+      "quote3": {
+        "quote": "I'm telling you - other things cannot compete with this thing.",
+        "name": "Vincent Vega",
+        "position": "Public Relations, Citrus Co."
+      }
+    },
+    "LandingReferences": {
+      "title": "References",
+      "subtitle": "Top companies trust the thing.",
+      "reference1": {
+        "label": "Cherry Inc."
+      },
+      "reference2": {
+        "label": "Banana Biz."
+      },
+      "reference3": {
+        "label": "Braeburn Ltd."
+      },
+      "reference4": {
+        "label": "Citrus Co."
+      }
+    },
+    "LandingStatistics": {
+      "title": "Stats",
+      "subtitle": "The numbers are looking good.",
+      "stat1": {
+        "label": "Users"
+      },
+      "stat2": {
+        "label": "Subscribers"
+      },
+      "stat3": {
+        "label": "Downloads"
+      },
+      "stat4": {
+        "label": "Products"
+      }
+    },
+    "LandingThings": {
+      "title1": "Join the gang.",
+      "subtitle1": "Get started with Boilerthing today.",
+      "link1": "Get started",
+      "title2": "Wanna talk?",
+      "subtitle2": "We're here to help.",
+      "link2": "Contact us"
+    },
+    "LocaleSwitcher": {
+      "label": "Change language",
+      "locale": "{locale, select, de {Deutsch} en {English} other {Unknown}}"
+    },
+    "PricingCard": {
+      "price": "{amount}€",
+      "savings": "Save {amount}€/month",
+      "button": "Try for free"
+    },
+    "PricingSelector": {
+      "pay_monthly": "Pay monthly",
+      "pay_annualy": "Pay annually <badge>-20%</badge>",
+      "price_info": "* Prices are in EUR and do not include VAT",
+      "pricingCard1": {
+        "name": "Free Thing",
+        "subtitle": "For individuals",
+        "feature_1": "Unlimited things",
+        "feature_2": "Basic support",
+        "feature_3": "Community access",
+        "feature_4": "Standard security"
+      },
+      "pricingCard2": {
+        "name": "Pro Thing",
+        "subtitle": "Advanced features",
+        "feature_1": "Custom things",
+        "feature_2": "Priority support",
+        "feature_3": "Advanced analytics",
+        "feature_4": "Enhanced security"
+      },
+      "pricingCard3": {
+        "name": "Team Thing",
+        "subtitle": "For teams",
+        "feature_1": "Collaboration things",
+        "feature_2": "Custom roles",
+        "feature_3": "Dedicated support",
+        "feature_4": "Custom integrations"
+      }
+    },
+    "PricingFAQ": {
+      "item1": {
+        "question": "How do I upgrade the thing?",
+        "answer": "You can upgrade your thing at any time by visiting the billing page."
+      },
+      "item2": {
+        "question": "Are there any hidden things?",
+        "answer": "No, there are no hidden things. What you see is what you get."
+      },
+      "item3": {
+        "question": "Can I share my thing with others?",
+        "answer": "Yes, you can share your thing with team members and collaborators."
+      },
+      "item4": {
+        "question": "Can I customize my thing?",
+        "answer": "Yes, our thing allows for extensive customization to fit your needs."
+      },
+      "item5": {
+        "question": "What if I need help with my thing?",
+        "answer": "Our support team is available 24/7 to help you with any thing-related issues."
+      }
+    },
+    "ProfileCard": {
+      "joined_on": "Joined on {date}",
+      "button_delete_account": "Delete my account"
+    },
+    "ScrollToTop": {
+      "aria_label": "Scroll to top"
+    },
+    "SidebarMobile": {
+      "trigger_aria_label": "Open Sidebar",
+      "content_aria_label": "Mobile Navigation"
+    }
+  },
+  "Pages": {
+    "Profile": {
+      "title": "Profile"
+    },
+    "Settings": {
+      "title": "Settings"
+    },
+    "Contact": {
+      "title": "Contact",
+      "subtitle": "Don't be a stranger, get in touch!"
+    },
+    "Pricing": {
+      "title": "Pricing",
+      "subtitle": "The below numbers are just examples, Boilerthing is free."
+    },
+    "Page404": {
+      "title": "404",
+      "description": "Sorry, the page you were looking doesn't exist.",
+      "link": "Back to homepage"
+    }
+  }
+}
