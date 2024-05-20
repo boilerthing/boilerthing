@@ -2,7 +2,7 @@
 
 # Boilerthing
 
-Does the world need another Next.js boilerplate? Absolutely! More competition leads to higher standards and better products. I hope you find this useful. Take a look around!
+Does the world need another Next.js boilerplate? Absolutely! More offerings lead to higher standards and better products. Take a look around and give it a star if you find it valuable! This will make my day 🦄!
 
 ## Demo
 
@@ -10,7 +10,7 @@ See it in action: [https://boilerthing.vercel.app](https://boilerthing.vercel.ap
 
 ## TL;DR
 
-> **[Next.js 14](https://nextjs.org/)** Boilerplate with (App Router), **[Next-auth (v5)](https://auth.js.org/)**, **[Next-intl](https://next-intl-docs.vercel.app/)** (translated routes), **[Prisma ORM](https://www.prisma.io/)**, **[Resend](https://resend.com/)**, **[Tailwind CSS](https://tailwindcss.com/)**, and **[Shadcn/UI](https://ui.shadcn.com/)** & **[Radix UI](https://www.radix-ui.com/)**, plus many other features.
+> Free and open-source **[Next.js 14](https://nextjs.org/)** Boilerplate with (App Router), **[Next-auth (v5)](https://auth.js.org/)**, **[Next-intl](https://next-intl-docs.vercel.app/)** (translated routes), **[Prisma ORM](https://www.prisma.io/)**, **[Resend](https://resend.com/)**, **[Tailwind CSS](https://tailwindcss.com/)**, and **[Shadcn/UI](https://ui.shadcn.com/)** & **[Radix UI](https://www.radix-ui.com/)**, plus many other features.
 
 ![](./public/boilerthing-preview-202405180221.jpg)
 
