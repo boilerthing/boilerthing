@@ -46,3 +46,6 @@ terraform/terraform.tfstate
 # sitemap
 public/sitemap.xml
 public/robots.txt
+
+# pnpm-lock
+pnpm-lock.yaml
