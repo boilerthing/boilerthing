@@ -31,8 +31,15 @@ const nextConfig = {
         hostname: "avatars.githubusercontent.com",
         port: "",
         pathname: "**",
-      }
+      },
     ],
+  },
+  webpack: (config, { isServer }) => {
+    if (!isServer) {
+      config.externals = config.externals || []
+      config.externals.push("pg-native")
+    }
+    return config
   },
 }
 

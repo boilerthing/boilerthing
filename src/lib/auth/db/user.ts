@@ -1,26 +1,17 @@
+import { eq } from "drizzle-orm"
 import { db } from "@/lib/db"
 
 export async function getUserByEmail(email: string) {
-  try {
-    const user = await db.user.findUnique({ where: { email } })
-
-    return user
-  } catch {
-    return null
-  }
+  return await db.query.user.findFirst({
+    where: table => eq(table.email, email),
+  })
 }
 
 export async function getUserById(id: string) {
-  try {
-    const user = await db.user.findUnique({
-      where: { id },
-      include: {
-        accounts: true,
-      },
-    })
-
-    return user
-  } catch {
-    return null
-  }
+  return await db.query.user.findFirst({
+    where: table => eq(table.id, id),
+    with: {
+      accounts: true,
+    },
+  })
 }
